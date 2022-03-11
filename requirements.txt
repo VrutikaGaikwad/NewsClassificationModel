@@ -1,0 +1,8 @@
+pandas
+matplotlib
+wordcloud
+sklearn
+nltk
+newspaper3k
+seaborn
+plotly
