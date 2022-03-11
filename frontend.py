@@ -23,10 +23,10 @@ from wordcloud import WordCloud, STOPWORDS
 from newspaper import Article
 
 import pickle
-filename = 'C:/Python/ML2/researchproject/data/model.pkl'
+filename = 'model.pkl'
 model = pickle.load(open(filename, 'rb'))
 
-filename = 'C:/Python/ML2/researchproject/data/vars.pkl'
+filename = 'vars.pkl'
 fe = pickle.load(open(filename, 'rb'))
 
 def get_article(url):
